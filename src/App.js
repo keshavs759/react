@@ -1,5 +1,5 @@
 import "./App.css";
-import Login from "./pages/Login";
+import Login_win from "./pages/Login_win";
 import { UserContext } from "./UserContext";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -34,7 +34,7 @@ function App() {
         <Switch>
 
           <Route exact path="/login">
-            <Login  />
+            <Login_win  />
           </Route>
           <Route exact path="/">
           <Body />
