@@ -1,0 +1,114 @@
+.body-content {
+    padding-top: 8vh;
+height: calc(92vh - 100px);
+}
+
+.login-container {
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 5px;
+    border-radius: 15px;
+    background: #ece8e8;
+    box-shadow: 0 0 10px black;
+
+}
+h2{
+    color: #3e3a3a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item {
+    margin: 5px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+
+
+.form-item input {
+    width: 320px;
+    height: 35px;
+    border: 2px solid #aaa5a5;
+    font-size: 15px;
+    border-radius: 20px;
+    background: white;
+    color: grey;
+    text-align: center;
+}
+
+.form-btns {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.form-btns button {
+    margin: auto;
+    font-size: 20px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background: #178cc6;
+    width: 280px;
+    cursor: pointer;
+}
+
+.options {
+    padding-top: 15px;
+    margin: auto;
+}
+
+.options a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    margin: 0 45px;
+    font-size: 14px;
+}
+.options a:hover {
+    color:grey;
+}
+hr {
+    background: grey;
+    width: 80%;
+}
+
+.login-options{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.login-options .facebook{
+    margin: 5px auto;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background: #178cc6;
+    width: 320px;
+    cursor: pointer;
+
+}
+.login-options .google{
+    margin: 5px auto;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background: #c61d17;
+    width: 320px;
+    cursor: pointer;
+}
